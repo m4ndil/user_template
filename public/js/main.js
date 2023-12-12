@@ -4,7 +4,7 @@ $(document).ready(function () {
   ClassicEditor.create(document.querySelector('.ckeditor'))
 
   moment.updateLocale('en', {
-    week: {dow: 1} // Monday is the first day of the week
+    week: {dow: 1} //** Monday is the first day of the week
   })
 
   $('.date').datetimepicker({
